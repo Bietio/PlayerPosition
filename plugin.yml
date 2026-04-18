@@ -1,0 +1,15 @@
+#Jesus is king
+---
+name: PlayerPosition
+main: PlayerPosition\Loader
+version: 1.0.0
+api: 2.0.0
+depend: [SmartCommand] #https://github.com/RajadorDev/SmartCommand
+author: Bietio
+website: https://github.com/PlayerPosition
+description: "Get the position of player"
+
+permission:
+  position.command:
+    default: op
+...
